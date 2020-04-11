@@ -65,8 +65,9 @@ function draw(){
     opposition2.destroy();
     track.destroy();
     background("red");
-    Text("GAME OVER, NO LIFE LEFT")
+    Text(displayWidth-50, displayHeight-60"GAME OVER, NO LIFE LEFT")
   }
+  Text(displayWidth-30, displayHeight-40,"LIFES: "+life)
   if(life=0){
     gameState="end"
   }
